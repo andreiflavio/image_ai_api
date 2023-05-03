@@ -6,3 +6,4 @@ api/__pycache__/
 =*.*
 share/
 .vscode/
+yolov3.pt
