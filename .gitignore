@@ -3,3 +3,6 @@ include/
 lib/
 .Python
 api/__pycache__/
+=*.*
+share/
+.vscode/
