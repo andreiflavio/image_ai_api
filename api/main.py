@@ -12,7 +12,7 @@ async def root():
 
 
 @app.post("/objects")
-async def detect(image: Image) -> Image:
+async def detect(image: Image) -> str:
     """
     This endpoint will process an image in base 64 and find objects within that.
     """
