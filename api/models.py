@@ -1,9 +1,9 @@
 from typing import Union
-from pydantic import BaseModel, validator
+from pydantic import BaseModel, validator, Field
 
 
 class Image(BaseModel):
-    content: str
+    content: str = Field(description="Must be an image in base 64 format.")
     minimum_possibility: Union[int, None] = None
 
     @validator("content")
